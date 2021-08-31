@@ -1,0 +1,11 @@
+{
+    "testFiles": "**/*.{feature,features}",
+    "baseUrl": "https://s.karvi.com.br",
+    "username": "test@gmail.com",
+    "password": "aaaa1111",
+    "ignoreTestFiles": ["**/stepDefinitions/*","*.js", "*.md"],
+    "reporter": "mochawesome",
+    "reporterOptions": {
+    "reportFilename": "test-report"
+    }
+}
