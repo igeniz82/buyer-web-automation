@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /*/wizard
+Disallow: /*/my/
+Disallow: /styles
+Disallow: /scripts
+Disallow: /static
+Disallow: /login/
+Disallow: /ofertas/*
+
+User-agent: Arquivo-web-crawler
+Disallow: /
+
+User-agent: sogou spider
+Disallow: /
